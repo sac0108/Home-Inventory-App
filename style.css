@@ -1,0 +1,13 @@
+.glass{background:linear-gradient(135deg,rgba(255,255,255,.7),rgba(255,255,255,.4));backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,.35)}
+.dark .glass{background:linear-gradient(135deg,rgba(30,41,59,.75),rgba(15,23,42,.75));border:1px solid rgba(148,163,184,.25)}
+.nav-btn{display:flex;align-items:center;gap:.6rem;padding:.65rem .8rem;border-radius:.9rem;color:#475569}
+.dark .nav-btn{color:#cbd5e1}
+.nav-btn.active,.nav-btn:hover{background:#e2e8f0;color:#0f172a}
+.dark .nav-btn.active,.dark .nav-btn:hover{background:#1e293b;color:#f8fafc}
+.card{border:1px solid rgba(148,163,184,.25);border-radius:1rem;padding:1rem;background:rgba(255,255,255,.85);box-shadow:0 10px 25px rgba(2,6,23,.06)}
+.dark .card{background:rgba(15,23,42,.8)}
+.kpi{font-size:1.8rem;font-weight:700}
+.fade-in{animation:fade .25s ease}
+@keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.skeleton{height:80px;border-radius:12px;background:linear-gradient(90deg,#e2e8f0 25%,#f1f5f9 45%,#e2e8f0 65%);background-size:400% 100%;animation:sk 1.2s infinite}
+@keyframes sk{0%{background-position:100% 0}100%{background-position:0 0}}
